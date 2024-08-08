@@ -4,5 +4,5 @@ class transaction;
    logic rst;
   bit q;
   bit qb;
-  constraint cons{d dist {0:=5 ,1:=5};}
+  constraint cons{d dist {0:=50 ,1:=50};}
 endclass
